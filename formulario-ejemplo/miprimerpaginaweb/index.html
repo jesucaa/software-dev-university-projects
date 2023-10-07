@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header">
+        <h1>Mi Primer Página Web</h1>
+        <p>Esta es mi primer <strong>página web</strong> hecha en html y css.
+        </p>
+        <br>
+    </header>
+    <main>
+        <section class="container">
+            <article id="firstpost">
+                <h2>Primer post</h2>
+                <img src="coffee.jpg" alt="imagen de prueba" width="400" height="400"/>
+                <h3>imagen de prueba</h3>
+                <p>Esta es una breve descrpción de mi primer post</p>
+                <p></p> 
+            </article>
+            <article id="formulario">
+                <h2>Formulario de ejemplo</h2>
+                <form>
+                    <label for="nuevacontraseña" id="pass">Nueva contraseña</label>
+                    <input type="password" name="nuevacontraseña" id="nuevacontraseña" placeholder="Escribe tu nombre de usuario aqui"/>
+                    <label for="nuevacontraseña2">Escribe de nuevo la constraseña</label>
+                    <input type="password" name="nuevacontraseña2" id="nuevacontraseña2" placeholder="Escribe tu contraseña aqui"/>
+                    <!--<button type="submit">Iniciar Sesión</button>-->
+                    <button class="enviar" type="button">Enviar</button>
+                </form>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <section>
+            <p>Contacto:</p>
+            <a href="mailto:jesusdlc.m15@gmail.com" id="mail">jesusdlc.m15@gmail.com</a>
+            <a href="#header" id="comienzo">Ir al comienzo</a>
+        </section>
+        <p>© Copyright</p>
+    </footer>
+</body>
+</html>

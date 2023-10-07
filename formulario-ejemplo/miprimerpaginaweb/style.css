@@ -1,0 +1,135 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #D8D8D8;
+}
+
+header {
+    background-color: #364552;
+    color: white;
+    text-align: center;
+    padding: 3rem 2rem;
+}
+
+header h1 {
+    font-size: 4rem;
+}
+
+header p {
+    margin: 0;
+    color: white;
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+main .container {
+    width: 400px;
+    margin: 0 auto;
+}
+
+section article {
+    transition: box-shadow 0.3s ease;
+    background-color: white;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+    
+}
+
+#firstpost:hover {
+    box-shadow: 0 0.1rem 0.6rem rgba(0, 0, 0, 0.3); /* derecha, abajo, difuminacion, colorrgba para opacidad */
+    cursor: pointer;
+}
+
+section article h2, section article h3, section article p {
+    margin: 1rem;
+}
+
+#formulario:hover {
+    box-shadow: 0 0.1rem 0.6rem rgba(0, 0, 0, 0.3);
+}
+
+#formulario h2 {
+    display: inline-block;
+    text-align: center;
+    padding: 0 5rem 1rem;
+    color: green;
+}
+
+article form label {
+    display: block;
+    text-align: center;
+}
+
+article form input {
+    margin: 15px 68px 35px;
+    width: 16rem;
+    height: 1.4rem;
+    text-align: center;
+    border-radius: 7px;
+    border-color: #303F61;
+}
+
+.enviar {
+    /* display: block; */
+    transition: background-color 0.3s ease;
+    margin: 5px 166px 35px;
+    border-radius: 1rem;
+    border-color: black;
+    width: 4.7rem;
+    height: 1.8rem;
+    background-color: white;
+}
+
+.enviar:hover {
+    cursor: pointer;
+    background-color: #364552;
+    color: white;
+}
+
+.enviar:active {
+    box-shadow: 0.1rem 0.3rem 0.3rem rgba(0, 0, 0, 0.3);
+    transform: scale(0.9); /* hace que el botón haga el efecto de que se está presionando */
+    background-color: black;
+    color: white;
+}
+
+footer {
+    background: #364552;
+    padding: 3rem;
+    color: white;
+}
+
+footer p {
+    display: inline-block;
+    margin: 0;
+}
+
+footer a {
+    transition: color 0.3s ease;
+    color: #fff;
+    text-decoration: none;
+}
+
+footer section {
+    float: right;
+}
+
+#mail {
+    position: relative;
+    top: 20px;
+    right: 380px;
+}
+
+footer section p {
+    position: relative;
+    right: 245px;
+    bottom: 15px;
+}
+
+footer a:hover {
+    color: cornflowerblue;
+}
