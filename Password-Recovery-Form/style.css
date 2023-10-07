@@ -1,0 +1,111 @@
+/* hacer responsive la página */
+
+html {
+    font-family: 'Asap', sans-serif;
+}
+
+body {
+    background-image: url('images/fondo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.background-container {
+    /* background-color: rgba(0, 0, 0, 0.4); */
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+}
+
+/* mover más a la derecha la escritura dentro del input */
+
+.container {
+    /* hacerlo responsive */
+    width: 10%;
+    min-width: 30%;
+    /* que no se salga del div cuando se redimensiona la pantalla */
+    padding: 20px;
+    /* margin: 100px auto 100px auto; margen top, left, bottom, right */
+    background-color: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0.5rem 0.5rem 0.4rem rgba(0, 0, 0, 0.3);
+    /* Emparejar el tamaño de arriba y abajo para el contenido de este div */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}  
+
+.container h1 {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+    font-size: 180%;
+    font-weight: bold;
+    color: #1E8449;
+    text-align: center;
+    /* para que este h1 sea responsive dentro del div .container */
+    /* display: inline-block; */
+    width: 100%;
+}
+
+.container label {
+    display: inline-block;
+    margin-bottom:1rem;
+    width: 100%;
+}
+
+.container input {
+    height: 2rem; /* alto de los input */
+    color: #fff;
+    /* color de los input */
+    background-color: #7B91B1;
+    border-radius: 0.5rem; /* border radius de los input */
+    border: none; /* quitar el borde de los input */
+    opacity: 0.9; /* opacidad de los input */
+    margin-bottom: 2.5rem;
+    width: 100%;
+
+}
+
+::placeholder { 
+    color: #fff; /* color del placeholder */
+    opacity: 0.8; /* opacidad del placeholder */
+    font-size: 0.6; /* tamaño del placeholder */
+}
+
+.container button {
+    /* centrar el boton */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    /* centrar dentro de .container */
+    margin: 0.3rem auto;
+    padding: 12.5px 30px; /* padding del boton */
+    border: 0; /* quitar el borde del boton */
+    border-radius: 100px; /* border radius del boton */
+    background-color: #BA3BFF; /* color del boton */
+    color: #ffffff; /* color de la letra del boton */
+    font-weight: Bold; /* negrita de la letra del boton */
+    transition: all 0.5s; /* animacion del boton */
+    -webkit-transition: all 0.5s; /* animacion del boton */
+}
+
+.container button:hover {
+    background-color: #C099E0; /* color del boton */
+    box-shadow: 0 0 20px #6fc5ff50; /* color del shadow */
+}
+
+.container button:active {
+    box-shadow: 0.1rem 0.3rem 0.3rem rgba(0, 0, 0, 0.3);
+    transform: scale(0.9);
+}

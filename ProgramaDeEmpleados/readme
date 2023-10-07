@@ -1,0 +1,46 @@
+Como ejecutar el programa:
+
+Dentro de la carpeta de nuestro proyecto se encuentra el script para crear la bases de datos,
+el archivo se llama: 'creacion_de_basededatos.sql', debemos ejecutar este script dentro de 
+workbench o algun entorno para crear bases de datos, para que el programa pueda funcionar 
+correctamente.
+
+Después, dentro de NetBeans importamos todo nuestro proyecto y abrimos nuestra clase:
+'ConexionSQL.java' que está dentro del paquete: 'conexion'.
+
+Una vez estemos dentro de esta clase, es necesario modificar unos campos, los cuales son:
+
+public static final String username = "root";
+prublic static final String password = "355479@Kijete";
+
+Los resultados de estas variables deben ser modificados por el nombre de nuestro usuario root
+y por nuestra contraseña de dicho usuario, para hacer la conexión correctamente.
+(probablemente su usuario, de igual manera es 'root') si es así, no es necesario cambiar este campo.
+
+Este proyecto solo tiene la función CRUD, registro de datos, modificar datos (el usuario no puede
+ser modificado), eliminar usuarios, buscar usuarios e iniciar sesion con el nombre de usuario y
+la contraseña de los usuarios registrados.
+
+Una vez hecho esto, ya se puede ejecutar el proyecto,
+
+dentro de la Ventana principal, en la opcion de Registrarse, primero puede probar registrando 
+un usuario, con datos que se le ocurra.
+
+Para buscar algún usuario, solo basta con escribir en el campo de texto de usuario, el nombre
+de algún usuario existente, y le tiene que dar click en el botón de buscar.
+
+Listado de usuarios registrados:
+1. admin
+2. alejandromndz
+3. jmendoza
+4. jvergara
+
+Contraseña de todos los usuarios: 1234
+
+Para volver a buscar otro usuario de de ocupar el botón de 'Actualizar Ventana' para que el
+campo de texto se vuelva a activar. (cuando se busca un usuario, este campo se desactiva para
+que no pueda ser modificado).
+
+Ahora, regresando a la Ventana Principal, en la opción de 'Iniciar sesión', solo pude hacer la función 
+de como dije "Iniciar Sesión", con los usuarios registrados, si escribe un usuario que no está registrado, el programa arrojara un mensaje de dialogo que dice "Usuario no registrado".
+
