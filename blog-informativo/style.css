@@ -1,0 +1,178 @@
+body, html {
+    margin: 0;
+    background-color: #F2F2F2;
+}
+
+header {
+    height: 500px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('img/coffee-backg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    position: relative;
+    margin-bottom: 5.2rem; /* distancia entre el header y el main */
+}
+
+header h1 {
+    font-size: 36px;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 780px;
+    
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.profile-photo {
+    background-image: url('img/profile-photo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 100%;
+    border: 1px solid white;
+    width: 100px;
+    height: 100px;
+    bottom: -50px;
+    position: absolute;
+}
+
+.profile-name {
+    font-size: 18px;
+    font-family: 'Roboto Slab', serif;
+    bottom: -78px; /* distancia entre la foto de perfil y el nombre */
+    color: black;
+    position: absolute;
+}
+
+.article-updating {
+    font-size: 18px;
+    font-family: 'Roboto Slab', serif;
+    font-style: italic;
+    color: black;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.line {
+    background-color: #e6e6e6;
+    width: 270px;
+    height: 2px;
+    /* coloca la linea en medio de la página */
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+/* separacion entre el main y el footer */
+main {
+    margin-bottom: 60px;
+}
+
+.num-section {
+    font-size: 36px;
+    font-family: 'Roboto Slab', serif;
+    position: absolute;
+    font-style: bold;
+    color: gray;
+    left: -80px;
+}
+
+/* contenedor de toda la información del tema de la página */
+.container {
+    max-width: 66.67%; /* Establece el ancho máximo del artículo al 66.67% del contenedor principal */
+    margin: 0 auto; /* Centra el artículo horizontalmente */
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 36px;
+    font-family: 'Roboto Slab', serif;
+    font-style: bold;
+    color: rgb(51, 51, 51);
+    position: relative;
+    margin: 0;
+    margin-bottom: 0.2rem;
+}
+
+.links {
+    text-decoration: none;
+    color: #42b4d6;
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+}
+
+.links:hover {
+    color: #42b4d6;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.section-header {
+    margin-bottom: 20px;
+}
+
+article p, article ul {
+    line-height: 1.5;
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: rgb(51, 51, 51);
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('img/footer-backg.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding: 3rem;
+    color: white;
+    display: flex;
+    justify-content: center; /* Centra horizontalmente los elementos */
+    align-items: center; /* Centra verticalmente los elementos */
+}
+
+#copyright {
+    position: absolute;
+    left: 80px;
+}
+
+footer p {
+    margin: 0;
+    display: inline;
+}
+
+footer a {
+    transition: color 0.3s ease;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+}
+
+#comienzo {
+    position: absolute;
+    left: 80%;
+}
+
+section {
+    margin: 0 auto;
+}
+
+footer a:hover {
+    color: cornflowerblue;
+}

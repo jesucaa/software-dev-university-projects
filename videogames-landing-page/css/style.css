@@ -1,0 +1,60 @@
+html, body {
+    font-family: 'Montserrat', 'Roboto Slab', 'roboto', sans-serif;
+    margin: 0.4rem;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: black;
+    color: #FFFFFF;
+    padding: 1rem;
+    text-align: center;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+header h1 {
+    text-align: center;
+    /* justify-content: center; */
+    line-height: 1.5;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1.5rem 0; /* Añade espacio arriba y abajo para separar del encabezado y pie de página */
+    align-items: center; /* Centra las imágenes verticalmente */
+    justify-content: center; /* Alinea las imágenes a la izquierda del contenedor */
+    gap: 6rem; /* Espacio entre las imágenes */
+    padding: 0;
+}
+
+img {
+    width: 200px;
+    height: 330px;
+    border-radius: 10px;
+}
+
+img:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+    box-shadow: 3px 3px 5px 0px rgba(0,0,0,0.75);
+}
+
+footer {
+    background-color: black;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1.1rem;
+}
